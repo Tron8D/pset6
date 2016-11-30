@@ -10,7 +10,7 @@ def main():
 
     # ensure proper usage
     if len(sys.argv) != 2:
-        sys.exit("Usage: ./smile word")
+        sys.exit("Usage: ./tweets @screen_name")
         
     # instantiate analyzer
     analyzer = Analyzer()
